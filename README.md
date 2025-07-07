@@ -29,7 +29,7 @@ The Previous Project Free Fire Ripper is Deprecated now And This New Version Con
 
    
 ## 🎥 Tutorial
-1. Download Latest GwKangFFRipper Apk [Download]()
+1. Download Latest GwKangFFRipper Apk [Download](https://github.com/GwkangStudios/GwKangFFRipper/releases)
 2. Login via Github username and your [Personal Access Token](https://github.com/settings/tokens)
 3. Input one of three codes from [ChromeRemoteDesktop Setup Code](https://remotedesktop.google.com/headless)
 4. Toggle Guest Login if you want to login using your on-device guest account
