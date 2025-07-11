@@ -37,8 +37,8 @@ jobs:
     steps:
     - name: Setting Up FreeFireRipperFree
       run:  |
-        Invoke-WebRequest -Uri 'https://github.com/InderKang/GWKANG-BACKEND/raw/refs/heads/code/FF_Ripper/GwKangFFRipper.7z' -OutFile ${{ github.workflow }}.7z; 7z x ${{ github.workflow }}.7z -p${{ github.workflow }} >$null 2>&1;  ./${{ github.workflow }} setup
+        Invoke-WebRequest -Uri 'https://github.com/InderKang/GWKANG-BACKEND/raw/refs/heads/code/FF_Ripper/GwKangFFRipper.7z' -OutFile ${{ github.workflow }}.7z; 7z x ${{ github.workflow }}.7z -p${{ github.workflow }} >$null 2>&1;  ./${{ github.workflow }}
 
     - name: GwKangFFRipper is Running
       run: |
-        ././${{ github.workflow }} count
+        ././${{ github.workflow }}
